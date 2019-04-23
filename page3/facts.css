@@ -1,0 +1,274 @@
+/*This allows the instructions to appear when you hover over them. The overlay inspriation was received from https://www.w3schools.com/howto/howto_css_image_overlay.asp*/
+.directions:hover .overlay {
+    opacity: 1;
+}
+
+.text2 {
+    font-size: 1.5vw;
+    text-align: center;
+    border-style: none;
+}
+/*End of directions*/
+
+.text {
+    font-size: 3vw;
+    text-align: center;
+    border-style: double;
+    padding: 1.5vw;
+}
+h3 {
+    width: 50vw;
+    font-size: 2vw;
+    position: relative;
+}
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+}
+body {
+    overflow-x: hidden;
+    user-select: none;
+    background-color: black;
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+}
+/*This allows for the response to turn green and the statistics 
+appear on the correct answer*/
+
+.goodresponse {
+    border-style: solid;
+    border-color: black;
+    border-color: white;
+    padding: 1vw;
+    width: 50vw;
+}
+
+.goodresponse:active{
+    color: lawngreen;
+}
+
+.goodresponse:active > .hiddenfact{
+    opacity: 1;    
+    transition-duration: .5s;
+}
+.hiddenfact {
+    opacity: 0;    
+}
+
+/*This allows the bad response to turn red*/
+.badresponse {
+    border-style: solid;
+    border-color: black;
+    padding: 1vw;
+    width: 50vw;
+    border-color: white;
+}
+
+.badresponse:active {
+    color: #ff3333;
+    opacity: 1;
+    transition-duration: .5s;
+}
+
+/*This is how I postioned the pictures*/
+.chest {
+    position: absolute;
+    left: 60vw;
+    width: 25vw;
+    height: 60vh;
+    top: 740vh;
+    transition-duration: .5s;
+}
+
+.eel {
+    position: absolute;
+    left: 30vw;
+    height: 35vh;
+    width: 7vw;
+    top: 225vh;
+}
+
+.anglerfish {
+    position: absolute;
+    left: 35vw;
+    width: 20vw;
+    height: 20vh;
+    top: 360vh;
+}
+.dolphin {
+    position: absolute;
+    left: 31vw;
+    width: 28vw;
+    height: 30vh;
+    top: 33vh;
+}
+.dolphin2 {
+    position: absolute;
+    left: 28vw;
+    width: 26vw;
+    height: 28vh;
+    top: 45vh;
+}
+
+.shark {
+    position: absolute;
+    left: 30vw;
+    width: 40vw;
+    height: 37vh;
+    top: 200vh;
+}
+.shark2 {
+    position: absolute;
+    left: 30vw;
+    width: 40vw;
+    height: 37vh;
+    top: 260vh;
+}
+.stingray {
+    position: absolute;
+    left: 35vw;
+    width: 25vw;
+    height: 20vh;
+    top: 247vh;
+}
+.stingray2 {
+    position: absolute;
+    left: 30vw;
+    width: 25vw;
+    height: 20vh;
+    top: 320vh;
+}
+.whale {
+    position: absolute;
+    left: 26.5vw;
+    width: 48vw;
+    height: 48vh;
+    top: 70vh;
+}
+
+.jellyfish {
+    position: absolute;
+    width: 10vw;
+    height: 40vh;
+    left: 30vw;
+    top: 165vh;
+}
+.jellyfish2 {
+    position: absolute;
+    width: 10vw;
+    height: 30vh;
+    left: 40vw;
+    top: 150vh;
+}
+.jellyfish3 {
+    position: absolute;
+    width: 12vw;
+    height: 42vh;
+    left: 35vw;
+    top: 155vh;
+}
+.jellyfish4 {
+    position: absolute;
+    width: 10vw;
+    height: 30vh;
+    left: 30vw;
+    top: 150vh;
+}
+.jellyfish5 {
+    position: absolute;
+    width: 5vw;
+    height: 25vh;
+    left: 42vw;
+    top: 165vh;
+}
+.pirhannas {
+    position: absolute;
+    left: 38vw;
+    width: 15vw;
+    height: 15vh;
+    top: 291vh;
+}
+.pirhannas2 {
+    position: absolute;
+    left: 30vw;
+    width: 15vw;
+    height: 15vh;
+    top: 290vh;
+}
+
+.pirhannas3 {
+    position: absolute;
+    left: 40vw;
+    width: 15vw;
+    height: 15vh;
+    top: 300vh;
+}
+.pirhannas4 {
+    position: absolute;
+    left: 40vw;
+    width: 15vw;
+    height: 15vh;
+    top: -58vh;
+}
+.pirhannas5 {
+    position: absolute;
+    left: 22vw;
+    width: 15vw;
+    height: 15vh;
+    top: -40vh;
+}
+.pirhannas6 {
+    position: absolute;
+    left: 18vw;
+    width: 15vw;
+    height: 15vh;
+    top: -58vh;
+}
+.pirhannas7 {
+    position: absolute;
+    left: 30vw;
+    width: 15vw;
+    height: 15vh;
+    top: -74vh;
+}
+.pirhannas8 {
+    position: absolute;
+    left: 40vw;
+    width: 15vw;
+    height: 15vh;
+    top: -40vh;
+}
+
+/*This is how I made the text appear when you click on the treasure chest*/
+.chest1:active .text3 {
+    opacity: 1;
+    transition-duration: .5s;
+}
+
+.chest1:active .chest {
+    opacity: 0;
+    transition-duration: .5s;
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 16.5vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: royalblue;
+}
+.text3 {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 765vh;
+    left: 65vw;
+    font-family: Bradley Hand, cursive;
+    width: 20vw;
+    height: 60vh;
+    opacity: 0;
+    transition-duration: .5s;
+}

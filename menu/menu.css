@@ -1,0 +1,39 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+    width:100vw;
+    font-size: 2vw;
+    font-family: Bradley Hand, cursive;
+}
+
+li {
+    justify-content: center;
+    float: left;
+    font-size: 2vw;
+    font-family:Bradley Hand, cursive;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-family: Bradley Hand, cursive;
+}
+
+li a:hover {
+    background-color: #02449A;
+    font-size: 1.5vw;
+    font-family: Bradley Hand, cursive;
+}
+
+.active {
+    background-color: #02449A;
+    font-size: 1.5vw;
+    font-family: Bradley Hand, cursive;
+}

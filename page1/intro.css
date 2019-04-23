@@ -1,0 +1,335 @@
+body{
+    background-color: white;
+    position: absolute;
+    animation-name: body;
+    animation-duration: 35s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    user-select: none;
+}
+
+@keyframes body{
+    0%{background-color: #FFFFFF; }
+    20%{background-color: #D3D3D3;}
+    50%{background-color: #A9A9A9;}
+    75%{background-color: #3E3F41;}
+    100%{background-color: 	#000000;}
+}
+
+.header {
+    border-style: double;
+    border-color:white;
+    width: 99vw;
+    height: 17vh;
+}
+.soss{
+    position: relative;
+    top: 0vw;
+    color: white;
+    font-family:DejaVu Sans Mono, monospace;
+    font-size: 4vw;
+    width: 100vw;
+    display: inline-block;
+    text-align: center;
+}
+
+.thoughts{
+    position: relative;
+    top: -10.5vh;
+    color: white;
+    font-family:DejaVu Sans Mono, monospace
+        font-size: 2vw;
+    width: 100vw;
+    display: inline-block;
+    text-align: center;
+
+}
+/*  the following code are the responses from the survey. they appear in the code in the order of the which they pop up on the screen*/
+
+.floattext {
+    position: absolute;
+    opacity: 0;
+    z-index: 30;
+    animation: blurIn;
+    animation-duration: 50s;
+    font-family: Bradley Hand, cursive;
+    color: aliceblue;
+    font-size: 2vw;
+    text-align: center;
+    width: 27vw;
+    color: white;
+}
+
+
+@keyframes blurIn{
+    0%{opacity: 0; }
+    25%{opacity: 1; }
+    30%{opacity: 1; }
+    35%{opacity: 0; }
+    100%{opacity: 0; }
+}
+
+
+.response1 {
+    top: 29vh;
+    left: 35vw;
+    animation-delay: 5s; 
+}
+
+.response2 {
+    top: 31vh;
+    left: 4vw;
+    animation-delay: 8s;  
+}
+
+.response3 {
+    top: 31vh;
+    left: 65vw;
+    animation-delay: 10s;  
+}
+
+.response4 {
+    top: 53vh;
+    left: 2vw;
+    animation-delay: 12s;  
+}
+
+.response5 {
+    top: 53vh;
+    left: 70vw;
+    animation-delay: 14s;  
+}
+
+.response6 {
+    top: 28vh;
+    left: 35vw;
+    animation-delay: 22s;  
+}
+
+.response7 {
+    top: 31vh;
+    left: 4vw;
+    animation-delay: 25s; 
+}
+
+.response8 {
+    top: 31vh;
+    left: 65vw;
+    animation-delay: 27s;  
+}
+
+.response9 {
+    top: 53vh;
+    left: 2vw;
+    animation-delay: 29s; 
+}
+
+.response13 {
+    top: 53vh;
+    left: 70vw;
+    animation-delay: 31s;   
+}
+
+.response11 {
+    top: 29vh;
+    left: 35vw;
+    animation-delay: 38s;   
+}
+
+.response12 {
+    top: 31vh;
+    left: 4vw;
+    animation-delay: 41s;  
+}
+
+.response15 {
+    top: 31vh;
+    left: 65vw;
+    animation-delay: 44s;  
+}
+
+.response14 {
+    top: 53vh;
+    left: 2vw;
+    animation-delay: 46s;    
+}
+
+.response10 {
+    top: 53vh;
+    left: 70vw;
+    animation-delay: 49s; 
+}
+
+.response16 {
+    top: 29vh;
+    font-size: 3vw;
+    animation-delay: 55s;
+    width: 100vw;
+    text-align: center;
+}
+
+.response17 {
+    top: 31vh;
+    left: 4vw;
+    font-size: 3vw;
+    animation-delay: 58s;
+
+}
+
+.response18 {
+    top: 31vh;
+    left: 65vw;
+    font-size: 3vw;
+    animation-delay: 61s;
+}
+
+.response19 {
+    top: 53vh;
+    left: 2vw;
+    font-size: 3vw;
+    animation-delay: 63s;
+}
+
+.response20 {
+    top: 53vh;
+    left: 70vw;
+    font-size: 3vw;
+    animation-delay: 66s;
+}
+
+/* end of code that deals with responses*/
+
+
+/* the following keyframes and div tags allow for our individual pictures to slowly change into other pictures. the goal in this is to show  change in teenagers over time.
+*/
+
+.picture {
+    top: 70vh;
+    height: 30vh;
+    left: 40vw;
+    position: absolute;
+    animation-name: picture;
+    animation-duration: 30s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes picture{
+    0%{content: url(sad1.png) ;}
+    25%{content: url(sad2.png);}
+    50%{content: url(sad3.png);}
+    75%{content: url(sad4.png);}
+    100%{content: url(sad5.png);}
+}
+
+div {
+    width: 20vw;
+    height: 20vh;    
+}
+
+.picture2 {
+    position: absolute;
+    top: 55vh;
+    width: 35vw;
+    height: 45vh;
+    left: 13vw;
+    animation-name: picture2;
+    animation-duration: 30s;
+    animation-iteration-count: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes picture2 {
+    0%{content: url(sleep1.png) ;}
+    25%{content: url(sleep2.png);}
+    50%{content: url(sleep3.png);}
+    75%{content: url(sleep4.png);}
+    100%{content: url(sleep5.png);}
+}
+
+.picture3 {
+    position: absolute;
+    top: 70vh;
+    height: 30vh;
+    left: 60vw;
+    animation-name: picture3;
+    animation-duration: 30s;
+    animation-iteration-count: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes picture3{
+    0%{content: url(stressed1.png) ;}
+    25%{content: url(stressed2.png);}
+    50%{content: url(stressed3.png);}
+    75%{content: url(stressed4.png);}
+    100%{content: url(stressed5.png);}
+}
+
+.picture4 {
+    position: absolute;
+    top: 70vh;
+    height: 30vh;
+    left: 80vw;
+    animation-name: picture4;
+    animation-duration: 30s;
+    animation-iteration-count: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes picture4{
+    0%{content: url(fail1.png) ;}
+    25%{content: url(fail2.png);}
+    50%{content: url(fail3.png);}
+    75%{content: url(fail4.png);}
+    100%{content: url(fail5.png);}
+}
+
+.picture5 {
+    position: absolute;
+    top: 70vh;
+    height: 30vh;
+    left: 0vw;
+    height: 30vh;
+    animation-name: picture5;
+    animation-duration: 30s;
+    animation-iteration-count: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes picture5{
+    0%{content: url(work1.png) ;}
+    25%{content: url(work2.png);}
+    50%{content: url(work3.png);}
+    75%{content: url(work4.png);}
+    100%{content: url(work5.png);}
+}
+
+/* end of keyframes for the five pictures.*/
+
+/* zoompic allows the picture to get bigger once its clocked on*/
+.zoompic {
+    transition-duration: .5s;
+}
+
+.zoompic:active {
+    top: 40vh;
+    left: 20vw;
+    width: 60vw;
+    height: 60vh;
+    z-index: 3;
+    transition-duration: .5s;
+}
+
+/* end of zoompic*/
+
+/* picture of ship on the screen*/
+.ship{
+    position: fixed;
+    top: 34vh;
+    left: 17.5vw;
+    width: 65vw;
+    height: 100vh;
+    z-index: -1;
+}

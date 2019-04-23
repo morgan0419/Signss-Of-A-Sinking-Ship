@@ -1,0 +1,348 @@
+body{
+    background-color: black;
+    user-select: none;
+    overflow: hidden;
+}
+
+/* This makes the images appear on refresh and disappear after 2 seconds*/ 
+div {
+    transition-duration: 1s;
+    opacity: 0;
+    position: absolute;
+}
+
+/* This makes the instructions look cool */
+.h1{
+    font-size: 3em;
+}
+.Instructions {
+    opacity: 1;
+    color: white;
+    padding: 1vw;
+    height: 50vw;
+    width: 25vw;
+    top: vh;
+    margin-left: 70vw;
+    font-size: 1em;
+    font-family:DejaVu Sans Mono, monospace;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+
+/* This makes the images appear when you hover over them */
+
+div:hover {
+    transition-duration: 1s;
+    opacity: 1;
+}
+/*
+
+This set of tags sets the positions for the Horizontal Planks.
+
+*/
+.HorizontalPlankStart {
+    opacity: 1;
+}
+
+.HorizontalPlankStart{
+    top: 35vh;
+    left: 1vw;
+}
+
+.HorizontalPlank1{
+    top: 35vh;
+    left: 4vw;
+}
+
+.HorizontalPlank2{
+    top: 35vh;
+    left: 7vw;
+}
+
+.HorizontalPlank3{
+    top: 35vh;
+    left: 10.5vw;
+}
+
+.HorizontalPlank4{
+    top: 35vh;
+    left: 14vw;
+}
+
+.HorizontalPlank5{
+    top: 35vh;
+    left: 17vw;
+}
+
+.HorizontalPlank6{
+    top: 35vh;
+    left: 20.5vw;
+}
+
+.HorizontalPlank8{
+    top: 49vh;
+    left: 21.5vw;
+}
+
+.HorizontalPlank9{
+    top: 16vh;
+    left: 6.5vw;
+} 
+
+.HorizontalPlank10{
+    top: 18vh;
+    left: 19vw;
+}
+
+.HorizontalPlank11{
+    top: 18.3vh;
+    left: 22.2vw;
+}
+
+.HorizontalPlank12{
+    top: 18.4vh;
+    left: 26vw;
+}
+
+.HorizontalPlank13{
+    top: 9vh;
+    left: 29vw;
+}
+
+.HorizontalPlank14{
+    top: 9vh;
+    left: 32.5vw;
+}
+
+.HorizontalPlank15{
+    top: 28vh;
+    left: 30vw;
+}
+
+.HorizontalPlank16{
+    top: 40vh;
+    left: 36.5vw;
+}
+
+.HorizontalPlank17{
+    top: 40vh;
+    left: 40vw;
+}
+
+.HorizontalPlank18{
+    top: 55.8vh;
+    left: 44vw;
+}
+
+.HorizontalPlank19{
+    top: 55.8vh;
+    left: 47.8vw;
+}
+
+.HorizontalPlank20{
+    top: 27.5vh;
+    left: 47.8vw;
+}
+
+.HorizontalPlank21{
+    top: 27.7vh;
+    left: 54vw;
+}
+
+.HorizontalPlank22{
+    top: 27.7vh;
+    left: 58vw;
+}
+
+.HorizontalPlank23{
+    top: 10vh;
+    left: 50.5vw;
+}
+
+/*
+
+This set of tags sets the positions for the Vertical Planks.
+
+*/
+
+.VerticalPlank1{
+    top: 27vh;
+    left: 15.5vw;
+}
+
+.VerticalPlank2{
+    top: 18vh;
+    left: 15.6vw;
+}
+
+.VerticalPlank3{
+    top: 41vh;
+    left: 20.8vw;
+}
+
+.VerticalPlank4{
+    top: 26.4vh;
+    left: 2.6vw;
+}
+
+.VerticalPlank5{
+    top: 17vh;
+    left: 2.6vw;
+}
+
+.VerticalPlank6{
+    top: 11.9vh;
+    left: 9.37vw;
+}
+
+.VerticalPlank7{
+    top: 2.26vh;
+    left: 9.37vw;
+}
+
+.VerticalPlank8{
+    top: 10.19vh;
+    left: 26vw;
+}
+.VerticalPlank10{
+    top: 25vh;
+    left: 26.3vw;
+}
+
+.VerticalPlank11{
+    top: 28.3vh;
+    left: 33vw;
+}
+
+.VerticalPlank12{
+    top: 36.24vh;
+    left: 33vw;
+}
+
+.VerticalPlank13{
+    top: 44.16vh;
+    left: 40.36vw;
+}
+
+.VerticalPlank14{
+    top: 45.3vh;
+    left: 33.0vw;
+}
+
+.VerticalPlank16{
+    top: 53.2vh;
+    left: 40.36vw;
+}
+
+.VerticalPlank17{
+    top: 52.66vh;
+    left: 50.7vw;
+}
+
+.VerticalPlank18{
+    top: 44.16vh;
+    left: 50.78vw;
+}
+
+.VerticalPlank19{
+    top: 36.2vh;
+    left: 50.78vw;
+}
+
+.VerticalPlank20{
+    top: 28.3vh;
+    left: 50.78vw;
+}
+
+.VerticalPlank21{
+    top: 35vh;
+    left:57.8vw;
+}
+
+.VerticalPlank22{
+    top: 19.25vh;
+    left: 46.875vw;
+}
+
+.VerticalPlank23{
+    top: 10.75vh;
+    left: 46.85vw;
+}
+
+/* This configures the images so that they are in the right position and the right size */
+container {
+    width: 100;
+}
+
+img{
+    width: 100;
+}
+
+.Angler{
+    position: absolute;
+    top: 3vh;
+    left: .5vw;
+}
+
+.Angler img{
+    width: 150;
+}
+
+.piranahas{
+    position: absolute;
+    top: 45.3vh;
+    left: 25.9vw;
+    width: 10vw;
+}
+
+.piranahas img{
+    width: 150;
+}
+
+
+.octopus{
+    position: absolute;
+    top: 50vh; 
+    left: 57vw;
+}
+
+.octopus img{
+    width: 150;
+}
+
+.MangoFish{
+    position: absolute;
+    top: 60vh;
+    left: 32.86vw;
+}
+
+.MangoFish img{
+    width: 150;
+}
+
+.Eel{
+    position: absolute;
+    top: 0vh;
+    left: 38.81vw;
+}
+.SinkingShip {
+    opacity: 1;	
+}
+
+.SinkingShip img{
+    position: absolute;
+    top: 39.6vh;
+    left: .5vw;
+    width: 400;
+}
+
+.Treasure{
+    position: absolute;
+    top: .5vh; 
+    left: 54.3vw;
+}
+
+.Treasure img{
+    width: 200;
+}

@@ -1,0 +1,338 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+    user-select: none;
+    color: white;
+}
+
+h4 {
+    position: absolute;
+    top: 5vh;
+    width: 100vw;
+    font-size: 4vw;
+    font-family: DejaVu Sans Mono, monospace;
+    text-align: center;
+}
+h1 {
+    position: absolute;
+    width: 100vw;
+    font-size: 4vw;
+    font-family: DejaVu Sans Mono, monospace;
+    text-align: center;
+    top: 90vh;
+}
+
+h3 {
+    position: absolute;
+    top: 185vh;
+    font-size: 3vw;
+    font-family: DejaVu Sans Mono, monospace;
+    width: 100vw;
+    text-align: center;
+}
+
+.full_image {
+    width: 100%;
+    height: 52vh;
+}
+
+.author {
+    width: 28vw;
+    top: 110vh;
+    position: absolute;
+}
+
+.morgan {
+    left: 8vw;
+}
+.morgan:hover .overlay {
+    opacity: 1;
+}
+
+/*all overlays are to give each picture the ability to fade into a bio. This is repeated for all pictures*/
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: royalblue;
+}
+/*all text pairs with each overlay. This is repeated for all pictures*/
+
+.text {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+
+.tamir {
+    left: 36vw;    
+}
+.tamir:hover .overlay3 {
+    opacity: 1;
+}
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:royalblue;
+}
+
+.hadi {
+    left: 64vw;    
+}
+.hadi:hover .overlay2 {
+    opacity: 1;
+}
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: royalblue;
+}
+.text2 {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+
+.full_image2 {
+    width: 100%;
+    height: 40vh;
+    top: 150vh;
+}
+.text3 {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+
+
+.model {
+    width: 25.3vw;
+    height: 25.3vh;
+    top: 200vh;
+    position: absolute;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    left: 0vw;
+    height: 30vh;
+    width: 16.5vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: royalblue;
+}
+.text4 {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+.trinity:hover .overlay4 {
+    opacity: 1;
+}
+.trinity {
+    left: 8.5vw;
+}
+.full_image2 {
+    width: 16.5vw;
+    height: 30vh;
+    top: 1500vh;
+}
+
+.overlay5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 16.5vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:royalblue;
+}
+.text5 {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+.leo:hover .overlay5 {
+    opacity: 1;
+}
+.leo {
+    left: 25vw;
+}
+
+.overlay6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 16.5vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: royalblue;
+}
+.text6 {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+.angilina:hover .overlay6 {
+    opacity: 1;
+}
+.angilina {
+    left: 41.5vw;
+}
+
+.overlay7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 16.5vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: royalblue;
+}
+.text7 {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+.jarad:hover .overlay7 {
+    opacity: 1;
+}
+.jarad {
+    left: 58vw;
+}
+
+.overlay8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    width: 16.5vw;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: royalblue;
+}
+.text8 {
+    color: white;
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+}
+.shaunee:hover .overlay8 {
+    opacity: 1;
+}
+.shaunee {
+    left: 74.5vw;
+}
+
+.full_image3 {
+    width: 45vw;
+    height: 70vh;
+    text-align: center;
+    position: absolute;
+    left: 28vw;
+    top: 28vh;
+    transition-duration: 1s;    
+}
+
+
+.text9 {
+    color: white;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 45vh;
+    left: 0vw;
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+
+.logo:hover .text9 {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.logo:hover .full_image3 {
+    opacity: 0;
+    transition-duration: 1s;
+}
