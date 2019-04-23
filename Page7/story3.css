@@ -1,0 +1,129 @@
+/*This is how the "trigger warning" flashes. The code was insprired by https://codepen.io/iPawan/pen/BKkCo*/
+.trigger{
+    color:red;
+    font-family: Impact, fantasy;
+    -webkit-animation: flash linear 1s infinite;
+    animation: flash linear 1s infinite;
+    animation-duration: 1s;
+}
+@-webkit-keyframes flash {
+    0% { opacity: 1; } 
+    50% { opacity: .1; } 
+    100% { opacity: 1; }
+}
+@keyframes flash {
+    0% { opacity: 1; } 
+    50% { opacity: .1; } 
+    100% { opacity: 1; }
+}
+@-webkit-keyframes pulse {
+    0% { width:200px; } 
+    50% { width:340px; } 
+    100% { width:200px; }
+}
+
+.warning {
+    color: white;
+    font-family: DejaVu Sans Mono, monospace;
+}
+
+.message {
+    position: absolute;
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    width: 93vw;
+    top: 13vh;
+}
+/*end of flashing*/
+body{
+    background-color: black;
+    overflow-x: hidden;
+    user-select: none;
+}
+h1 {
+    font-size: 3vw;
+}
+
+.title {
+    text-align: center;
+    font-size: 2vw;
+}
+.story{
+    color: white;
+    position: absolute;
+    border-style: double;
+    width: 50vw;
+    padding: 1.5vw;
+    left: 45vw;
+    font-size: 1.5vw;
+    font-family: Bradley Hand, cursive;
+    top: 50vh;
+}
+/*This allows for the emphasis of certain words in the story*/
+.paragraph1:hover em {
+    color: red;
+    transition-duration: .5s;
+}
+.paragraph2:hover em {
+    color: red;
+    transition-duration: .5s;
+}
+.paragraph3:hover em {
+    color: red;
+    transition-duration: .5s;
+}
+/*end of emphasis*/
+.picture3 {
+    position:fixed;
+    top: 50vh;
+    height: 50vh;
+    width: 50vw;
+    left: -1vw;
+    animation-name: picture3;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+/*This allows for the picutre change of the model*/
+@keyframes picture3{
+    0%{content: url(sleep1.png) ;}
+    25%{content: url(sleep2.png);}
+    50%{content: url(sleep3.png);}
+    75%{content: url(sleep4.png);}
+    100%{content: url(sleep5.png);}
+}
+/*This is for the positioning of the rest of the pictures*/
+.ship {
+    width: 43.5vw;
+    height: 85vh;
+    top: 20vh;
+    position: absolute;
+    left: .5vw;
+    z-index: 1;
+}
+
+.shark {
+    width: 25vw;
+    height: 22vh;
+    top: 58vh;
+    position: absolute;
+    left: 10vw;
+    z-index: 1; 
+}
+.dolphin {
+    width: 20vw;
+    height: 22vh;
+    top: 47vh;
+    position: absolute;
+    left: 6vw;
+    z-index: 1; 
+}
+.jellyfish {
+    width: 10vw;
+    height: 40vh;
+    top: 60vh;
+    position: absolute;
+    left: 1vw;
+    z-index: 1;
+}
